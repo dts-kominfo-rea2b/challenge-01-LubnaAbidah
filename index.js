@@ -22,7 +22,7 @@ const eduMonica3 = {
     city: "Tanggerang"
 };
 
-const eduMonica = { eduMonica1, eduMonica2, eduMonica3 };
+const eduMonica = (eduMonica1, eduMonica2, eduMonica3);
 
 const eduWendy1 = {
     name: "SD 02",
@@ -44,7 +44,7 @@ const eduWendy4 = {
     city: "Tanggerang"
 };
 
-const eduWendy = { eduWendy1, eduWendy2, eduWendy3};
+const eduWendy = (eduWendy1, eduWendy2, eduWendy3);
 
 const favoriteRestaurantMonica = ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'];
 const favoriteRestaurantWendy = ['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'];
