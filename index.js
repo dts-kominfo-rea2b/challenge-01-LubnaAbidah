@@ -22,6 +22,8 @@ const eduMonica3 = {
     city: "Tanggerang"
 };
 
+const eduMonica = { eduMonica1, eduMonica2, eduMonica3 };
+
 const eduWendy1 = {
     name: "SD 02",
     city: "Jakarta",
@@ -42,6 +44,8 @@ const eduWendy4 = {
     city: "Tanggerang"
 };
 
+const eduWendy = { eduWendy1, eduWendy2, eduWendy3};
+
 const favoriteRestaurantMonica = ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'];
 const favoriteRestaurantWendy = ['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'];
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
@@ -52,7 +56,7 @@ const firstUser = {
     email: "monica@dingdong.com",
     favoriteColor: favoriteColorMonica,
     isHavePet: isHavePet.get('Monica'),
-    education: eduMonica1, eduMonica2, eduMonica3,
+    education: eduMonica,
     favoriteRestaurant: favoriteRestaurantMonica
     
 };
@@ -63,7 +67,7 @@ const secondUser = {
     email: "wendy@dingdong.com",
     favoriteColor: favoriteColorWendy,
     isHavePet: isHavePet.get('Wendy'),
-    education: eduWendy1, eduWendy2, eduWendy3, eduWendy4,
+    education: eduWendy,
     favoriteRestaurant: favoriteRestaurantWendy
     
 };
