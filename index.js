@@ -1,9 +1,7 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
-let name;
+
 const gender = new Map([['Monica', 'Female'], ['Wendy', 'Male']]);
-let age;
-let email;
 const favoriteColorMonica = ['Yellow', 'Pink', 'White', 'Purple'];
 const favoriteColorWendy = ['Blue', 'Black', 'Gray'];
 const isHavePet = new Map([['Monica', 'Yes'], ['Wendy', 'No']]);
@@ -53,8 +51,8 @@ const eduWendy4 = {
  educationWendy.push(eduWendy3);
 
 
-const favoriteRestaurantMonica = ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'];
-const favoriteRestaurantWendy = ['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'];
+const favoriteRestaurantMonica = ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Padang', 'Tteok'];
+const favoriteRestaurantWendy = ['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Eggy'];
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {
     name: "Monica",
