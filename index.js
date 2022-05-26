@@ -22,7 +22,10 @@ const eduMonica3 = {
     city: "Tanggerang"
 };
 
-const eduMonica = (eduMonica1, eduMonica2, eduMonica3);
+ const educationMonica = [];
+ educationMonica.push(eduMonica1);
+ educationMonica.push(eduMonica2);
+ educationMonica.push(eduMonica3);
 
 const eduWendy1 = {
     name: "SD 02",
@@ -44,7 +47,11 @@ const eduWendy4 = {
     city: "Tanggerang"
 };
 
-const eduWendy = (eduWendy1, eduWendy2, eduWendy3);
+ const educationWendy = [];
+ educationWendy.push(eduWendy1);
+ educationWendy.push(eduWendy2);
+ educationWendy.push(eduWendy3);
+
 
 const favoriteRestaurantMonica = ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'];
 const favoriteRestaurantWendy = ['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'];
@@ -56,7 +63,7 @@ const firstUser = {
     email: "monica@dingdong.com",
     favoriteColor: favoriteColorMonica,
     isHavePet: isHavePet.get('Monica'),
-    education: eduMonica,
+    education: educationMonica,
     favoriteRestaurant: favoriteRestaurantMonica
     
 };
@@ -67,13 +74,15 @@ const secondUser = {
     email: "wendy@dingdong.com",
     favoriteColor: favoriteColorWendy,
     isHavePet: isHavePet.get('Wendy'),
-    education: eduWendy,
+    education: educationWendy,
     favoriteRestaurant: favoriteRestaurantWendy
     
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [firstUser, secondUser];
+const users = [];
+users.push(firstUser);
+users.push(secondUser);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
