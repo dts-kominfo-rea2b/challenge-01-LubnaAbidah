@@ -61,8 +61,11 @@ const eduWendy4 = {
  educationWendy.push(eduWendy3);
 
 
-let favoriteRestaurantMonica = new Set (['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi']);
-let favoriteRestaurantWendy = new Set (['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy']);
+let favoriteRestaurantMonica = ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'];
+favoriteRestaurantMonica = [...new Set(favoriteRestaurantMonica)];
+
+let favoriteRestaurantWendy = ['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'];
+favoriteRestaurantWendy = [...new Set(favoriteRestaurantWendy)];
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {
     name: "Monica",
