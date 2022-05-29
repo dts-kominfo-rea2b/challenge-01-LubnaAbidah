@@ -2,8 +2,8 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 
 const gender = new Map([['Monica', 'Female'], ['Wendy', 'Male']]);
-const favoriteColorMonica = ['Yellow', 'Pink', 'White', 'Purple'];
-const favoriteColorWendy = ['Blue', 'Black', 'Gray'];
+const favoriteColorMonica = new Set (['Yellow', 'Pink', 'White', 'Purple']);
+const favoriteColorWendy = new Set (['Blue', 'Black', 'Gray']);
 const isHavePet = new Map([['Monica', 'Yes'], ['Wendy', 'No']]);
 const eduMonica1 = {
     name: "SD 01",
@@ -51,8 +51,8 @@ const eduWendy4 = {
  educationWendy.push(eduWendy3);
 
 
-const favoriteRestaurantMonica = ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Padang', 'Tteok'];
-const favoriteRestaurantWendy = ['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Eggy'];
+const favoriteRestaurantMonica = new Set (['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi']);
+const favoriteRestaurantWendy = new Set (['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy']);
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {
     name: "Monica",
