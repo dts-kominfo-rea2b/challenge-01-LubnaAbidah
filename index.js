@@ -2,8 +2,18 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 
 const gender = new Map([['Monica', 'Female'], ['Wendy', 'Male']]);
-const favoriteColorMonica = new Set (['Yellow', 'Pink', 'White', 'Purple']);
+
+const favoriteColorMonica = new Set ();
+favoriteColorMonica.add('Yellow');
+favoriteColorMonica.add('Pink');
+favoriteColorMonica.add('White');
+favoriteColorMonica.add('Purple');
+
 const favoriteColorWendy = new Set (['Blue', 'Black', 'Gray']);
+favoriteColorWendy.add('Blue');
+favoriteColorWendy.add('Black');
+favoriteColorWendy.add('Gray');
+
 const isHavePet = new Map([['Monica', 'Yes'], ['Wendy', 'No']]);
 const eduMonica1 = {
     name: "SD 01",
