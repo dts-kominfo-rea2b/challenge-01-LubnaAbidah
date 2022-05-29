@@ -3,13 +3,13 @@
 
 const gender = new Map([['Monica', 'Female'], ['Wendy', 'Male']]);
 
-const favoriteColorMonica = new Set ();
+let favoriteColorMonica = new Set ();
 favoriteColorMonica.add('Yellow');
 favoriteColorMonica.add('Pink');
 favoriteColorMonica.add('White');
 favoriteColorMonica.add('Purple');
 
-const favoriteColorWendy = new Set (['Blue', 'Black', 'Gray']);
+let favoriteColorWendy = new Set ();
 favoriteColorWendy.add('Blue');
 favoriteColorWendy.add('Black');
 favoriteColorWendy.add('Gray');
@@ -61,8 +61,8 @@ const eduWendy4 = {
  educationWendy.push(eduWendy3);
 
 
-const favoriteRestaurantMonica = new Set (['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi']);
-const favoriteRestaurantWendy = new Set (['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy']);
+let favoriteRestaurantMonica = new Set (['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi']);
+let favoriteRestaurantWendy = new Set (['Tempura', 'Bento', 'Sushi', 'Pancake','Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy']);
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {
     name: "Monica",
