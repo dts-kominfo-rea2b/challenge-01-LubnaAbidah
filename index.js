@@ -3,16 +3,11 @@
 
 const gender = new Map([['Monica', 'Female'], ['Wendy', 'Male']]);
 
-let favoriteColorMonica = new Set ();
-favoriteColorMonica.add('Yellow');
-favoriteColorMonica.add('Pink');
-favoriteColorMonica.add('White');
-favoriteColorMonica.add('Purple');
+let favoriteColorMonica = ['Yellow', 'Pink' , 'White' , 'Purple'] ;
+favoriteColorMonica = [...new Set(favoriteColorMonica)];
 
-let favoriteColorWendy = new Set ();
-favoriteColorWendy.add('Blue');
-favoriteColorWendy.add('Black');
-favoriteColorWendy.add('Gray');
+let favoriteColorWendy = ['Blue', 'Black', 'Gray'] ;
+favoriteColorWendy = [...new Set(favoriteColorWendy)];
 
 const isHavePet = new Map([['Monica', 'Yes'], ['Wendy', 'No']]);
 const eduMonica1 = {
